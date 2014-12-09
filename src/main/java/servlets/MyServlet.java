@@ -33,8 +33,8 @@ public class MyServlet extends javax.servlet.http.HttpServlet {
 
         Map<String, String[]> map = request.getParameterMap();
         if (map.size() == 2) {
-            double a = Double.parseDouble(request.getParameter("a"));
-            double b = Double.parseDouble(request.getParameter("b"));
+            double a = Double.parseDouble(map.get("a")[0]);
+            double b = Double.parseDouble(map.get("b")[0]);
             out.println("Sum: " + a + " + " + b + " = " + (a + b));
         }
 
