@@ -8,6 +8,9 @@
     <artifactId>JobSiteFinal</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- Во что паковать (war/ear/...) -->
+    <packaging>war</packaging>
+
     <properties>
         <!-- Используемая версия Spring -->
         <sv>RELEASE</sv>
@@ -19,6 +22,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${sv}</version>
+        </dependency>
+        <!-- Unit и Functional тесты для Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.1.1.RELEASE</version>
+            <scope>test</scope>
         </dependency>
         <!-- API для сервлетов -->
         <dependency>
