@@ -1,10 +1,13 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Главная страница</title>
+    <title>Main page</title>
 </head>
 <body>
-<h1>Главная страница</h1>
+<h1>Main page</h1>
+
+2+2 = ${2+2} <br>
+
+Sqrt 2 = <%=Math.sqrt(2)%>>
 
 </body>
 </html>
