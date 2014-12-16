@@ -24,6 +24,11 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${sv}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${sv}</version>
+        </dependency>
         <!-- Unit и Functional тесты для Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -84,5 +89,12 @@
             <artifactId>jboss-transaction-api_1.1_spec</artifactId>
             <version>1.0.1.Final</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
     </dependencies>
 </project>
