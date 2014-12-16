@@ -64,6 +64,12 @@
             <version>1.0.1.Final</version>
         </dependency>
 
+        <!-- Драйвер для подключения к БД -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.3-1102-jdbc41</version>
+        </dependency>
 
     </dependencies>
 

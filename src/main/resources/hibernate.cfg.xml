@@ -24,6 +24,8 @@
         <!-- Показывать ли все выполняемые SQL-запросы -->
         <property name="show_sql">true</property>
 
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+
         <mapping class="model.User"></mapping>
     </session-factory>
 </hibernate-configuration>
