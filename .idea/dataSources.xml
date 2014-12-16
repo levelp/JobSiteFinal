@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="631978044">
-    <data-source source="LOCAL" name="SQLite - jobsite.sqlite" uuid="50dd6f56-0434-40a2-90c0-964a25e53845">
+  <component name="DataSourceManagerImpl" format="xml" hash="597609742">
+    <data-source source="LOCAL" name="jobsite" uuid="5cb2dbf7-95a2-4c72-b5e0-f3c59cf73e11">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Workspace\JobSiteFinal2\jobsite.sqlite</jdbc-url>
-      <libraries />
+      <jdbc-url>jdbc:sqlite:file://$PROJECT_DIR$/jobsite.sqlite</jdbc-url>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.7/sqlite-jdbc-3.8.7.jar!/</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
