@@ -1,6 +1,6 @@
 /**
  *
  */
-@Run
+//@Run
 public class MainTest {
 }
