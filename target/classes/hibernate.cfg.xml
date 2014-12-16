@@ -4,28 +4,12 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!-- протокол://сервер:порт/база_данных -->
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/jobsite_test</property>
-        <!-- Имя пользователя для подключения к БД -->
-        <property name="hibernate.connection.username">darya</property>
-        <!-- Пароль пользователя -->
-        <property name="hibernate.connection.password">wRongHole1289</property>
-
-        <property name="connection_pool_size">1</property>
-
-        <!--
-          validate - проверка
-          update - обновление схемы
-          create - пересоздание схемы (с потерей данных)
-          create-drop - удаление схемы по окончании работы с БД
-        -->
-        <property name="hbm2ddl.auto">create</property>
-
-        <!-- Показывать ли все выполняемые SQL-запросы -->
-        <property name="show_sql">true</property>
-
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
-
-        <mapping class="model.User"></mapping>
+        <property name="connection.url">jdbc:sqlite:file://jobsite.sqlite</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="connection.username"/>
+        <property name="connection.password"/>
+        <!-- DB schema will be updated if needed -->
+        <property name="hbm2ddl.auto">update</property>
+        <property name="dialect">com.applerao.hibernatesqlite.dialect.SQLiteDialect</property>
     </session-factory>
 </hibernate-configuration>

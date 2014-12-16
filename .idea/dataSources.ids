@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="SQLite - jobsite.sqlite" uuid="50dd6f56-0434-40a2-90c0-964a25e53845">
-    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+  <data-source name="jobsite" uuid="3a57886d-0cbe-4672-9c97-287638744d45">
+    <database-info product="SQLite" version="3.8.7" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
     <table name="user" schema="" catalog="" type="TABLE">
@@ -9,6 +9,20 @@
       <column name="name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="column_3" sqlType="INT" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
       <primary-key columns="id"/>
+    </table>
+  </data-source>
+  <data-source name="HSQLDB - jobsite.db" uuid="c7407ae8-4890-4f90-93e3-c8604cc0a08a">
+    <database-info product="HSQL Database Engine" version="2.3.2" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.3.2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="PUBLIC"/>
+    <table name="USER" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="COLUMN_4" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="SYS_PK_10103" columns="ID"/>
     </table>
   </data-source>
 </component>

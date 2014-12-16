@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="597609742">
-    <data-source source="LOCAL" name="jobsite" uuid="5cb2dbf7-95a2-4c72-b5e0-f3c59cf73e11">
+  <component name="DataSourceManagerImpl" format="xml" hash="1622352415">
+    <data-source source="LOCAL" name="jobsite" uuid="3a57886d-0cbe-4672-9c97-287638744d45">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:file://$PROJECT_DIR$/jobsite.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Workspace\JobSiteFinal2\jobsite.sqlite</jdbc-url>
       <libraries>
         <library>
           <url>jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.7/sqlite-jdbc-3.8.7.jar!/</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="HSQLDB - jobsite.db" uuid="c7407ae8-4890-4f90-93e3-c8604cc0a08a">
+      <driver-ref>hsqldb.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/jobsite.db</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>
