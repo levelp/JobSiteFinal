@@ -17,12 +17,13 @@
     </database-info>
     <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
     <schema name="PUBLIC" catalog="PUBLIC"/>
-    <table name="USER" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
-      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+    <table name="TABLE_NAME" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
       <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
       <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
       <column name="COLUMN_4" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="SYS_PK_10103" columns="ID"/>
+      <column name="COLUMN_5" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="COLUMN_6" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
     </table>
   </data-source>
 </component>
