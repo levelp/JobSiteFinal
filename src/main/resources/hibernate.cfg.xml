@@ -4,10 +4,14 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:hsqldb:file:C:/Workspace/JobSiteFinal2/jobsite.db</property>
-        <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-        <property name="connection.username"/>
-        <property name="connection.password"/>
+        <property name="hibernate.connection.url">jdbc:sqlite:test.sqlite</property>
+        <property name="hibernate.connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+        <property name="hibernate.connection.username"/>
+        <property name="hibernate.connection.password"/>
+        <property name="javax.persistence.jdbc.driver">org.hsqldb.jdbcDriver</property>
+        <!-- <property name="javax.persistence.jdbc.url">jdbc:hsqldb:mem:." />
+         <property name="javax.persistence.jdbc.user"> value="SA" />
+         <property name="javax.persistence.jdbc.password"> value="" /> -->
         <!-- DB schema will be updated if needed -->
         <property name="hbm2ddl.auto">update</property>
         <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
