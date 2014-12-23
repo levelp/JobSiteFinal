@@ -6,31 +6,4 @@
 
     <jdbc:embedded-database id="dataSource" type="HSQL"> <!-- Use this shortcut since you are using HSQL -->
     </jdbc:embedded-database>
-
-    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="dataSource" ref="dataSource"/>
-        <property name="jpaVendorAdapter">
-            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
-        </property>
-        <property name="jpaProperties">
-            <map>
-                <entry key="hibernate.hbm2ddl.auto" value="create-drop"/>
-                <entry key="hibernate.show_sql" value="true"/>
-            </map>
-        </property>
-        <property name="packagesToScan" value="model"/>
-    </bean>
-
-    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-        <property name="dataSource" ref="dataSource"/>
-
-        <property name="hibernateProperties">
-            <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
-            </props>
-        </property>
-    </bean>
-
-
-    <!--  <bean id="point" class="mybeans.Point"/> -->
 </beans>
