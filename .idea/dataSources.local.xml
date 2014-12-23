@@ -2,10 +2,6 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="jobsite" uuid="3a57886d-0cbe-4672-9c97-287638744d45" />
-    <data-source name="HSQLDB - jobsite.db" uuid="c7407ae8-4890-4f90-93e3-c8604cc0a08a">
-      <secret-storage>master_key</secret-storage>
-      <schema-pattern>PUBLIC.PUBLIC</schema-pattern>
-      <default-schemas>PUBLIC.PUBLIC</default-schemas>
-    </data-source>
+    <data-source name="HSQLDB - jobsite.db" uuid="c7407ae8-4890-4f90-93e3-c8604cc0a08a" />
   </component>
 </project>
