@@ -13,7 +13,7 @@
 
     <properties>
         <!-- Используемая версия Spring -->
-        <sv>RELEASE</sv>
+        <sv>6.1.13</sv>
     </properties>
 
     <!-- Зависимости нашего проекта -->
