@@ -13,7 +13,7 @@
 
     <properties>
         <!-- Используемая версия Spring -->
-        <sv>RELEASE</sv>
+        <sv>6.1.14</sv>
     </properties>
 
     <!-- Зависимости нашего проекта -->
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>4.1.3.RELEASE</version>
+            <version>6.1.14</version>
         </dependency>
         <!-- Unit и Functional тесты для Spring -->
         <dependency>
@@ -91,17 +91,17 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>6.2.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>6.2.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>6.2.7</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
