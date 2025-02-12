@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>6.2.1</version>
+            <version>6.2.2</version>
         </dependency>
         <!-- Unit и Functional тесты для Spring -->
         <dependency>
